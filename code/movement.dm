@@ -11,7 +11,7 @@
 
 /mob/living/Move()
 	if(!isDead)
-		if(stamina <= 1)
+		if(stamina <= 1 && M)
 			movement = 0
 			M.icon_state = "movement_walk"
 			return

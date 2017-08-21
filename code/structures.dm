@@ -111,12 +111,6 @@
 					opened = 0
 			else
 				act_by_item(H, H.acthand)
-	New()
-		..()
-		// if this door is outside, add it to the light_spill turfs
-		var/area/A = loc
-		if(A.sd_outside)
-			sd_light_spill_turfs += src
 
 /obj/structures/tires
 	name = "pile of tires"

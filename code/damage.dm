@@ -25,7 +25,7 @@
 			del(E)
 			del(M)
 			del(P)
-			ghost.ckey = H.ckey
+			ghost.key = H.key
 			Ma.Turn(pick(90, -90))
 			transform = Ma
 			H.overlays = null
