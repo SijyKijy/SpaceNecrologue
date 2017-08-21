@@ -172,7 +172,7 @@ atom
 							T.sd_LumUpdate()
 				// end new_opacity = 0 block
 
-atom
+turf
 	var
 		// set to 1 to have outside light spill indoors from this turf
 		sd_light_spill = 0

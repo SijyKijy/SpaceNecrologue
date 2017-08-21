@@ -7,6 +7,7 @@ world
 /world/New()
 	sd_SetDarkIcon('light.dmi',7)
 	countLight()
+	spawn(1) DemoDayCycle()
 	master_controller()
 	world << "\red \bold Было создано:"
 	world << "\red[zombies] зомби."

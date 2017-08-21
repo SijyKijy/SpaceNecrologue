@@ -91,7 +91,6 @@
 	name = "window"
 	icon_state = "window"
 	destructible = 1
-	sd_light_spill = 1
 	var/opened = 0
 	layer = 12
 	hitsound = 'sounds/glasshit.ogg'

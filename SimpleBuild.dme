@@ -26,6 +26,7 @@
 #include "code\craft.dm"
 #include "code\critter.dm"
 #include "code\damage.dm"
+#include "code\daycycle.dm"
 #include "code\decals.dm"
 #include "code\defines.dm"
 #include "code\doors.dm"
