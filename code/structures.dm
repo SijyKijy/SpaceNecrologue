@@ -87,15 +87,12 @@
 	hitsound = 'sounds/grillehit.ogg'
 	loot = /obj/items/metal
 
-/obj/structures/window
+/turf/simulated/wall/window
 	name = "window"
 	icon_state = "window"
-	destructible = 1
+	layer = 4
+	opacity = 0
 	var/opened = 0
-	layer = 12
-	hitsound = 'sounds/glasshit.ogg'
-	breaksound = 'sounds/glassbr.ogg'
-	loot = /obj/items/weapon/shard
 	attack_hand(var/mob/living/H)
 		if(H in range(1, src))
 			if(!H.acthand && H.act == "help" && !H.isDead)
@@ -109,8 +106,11 @@
 					icon_state = "window"
 					density = 1
 					opened = 0
-			else
-				act_by_item(H, H.acthand)
+	New()
+		..()
+		var/area/A = loc
+		if(A.sd_outside)
+			sd_light_spill_turfs += src
 
 /obj/structures/tires
 	name = "pile of tires"
@@ -169,6 +169,6 @@
 				if(istype(S))
 					view() << "\bold[H.name] создает окно!"
 					view() << deconstruct
-					new/obj/structures/window(T)
+					new/turf/simulated/wall/window(T)
 					H.cut_hands()
 					del src
