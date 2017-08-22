@@ -14,6 +14,12 @@
 			new /turf/unsimulated/rock(src)
 		if(prob(1))
 			new /mob/living/zombie(src)
+		if(prob(0.5))
+			new /obj/structures/bush/berries(src)
+		if(prob(1))
+			new /obj/items/food/krasnogrib(src)
+		if(prob(0.5))
+			new /obj/items/food/boletus(src)
 
 /turf/unsimulated/dirt/road
 	icon_state = "dirtroad"

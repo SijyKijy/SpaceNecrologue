@@ -5,7 +5,7 @@
 
 /mob/living/zombie
 	name = "Unknown"
-	icon = 'critter.dmi'
+	icon = 'zombies.dmi'
 	icon_state = "zombie"
 	mymob = "zombie"
 	isZombie = 1
@@ -18,6 +18,8 @@
 		meleeskill = rand(1, 2)
 		if(prob(1))
 			rundelay = 2
+		if(prob(10))
+			icon_state = "zombie_blacksuit"
 		stamina = stamina_max
 		skill_check()
 		.=..()

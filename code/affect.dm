@@ -6,7 +6,7 @@
 			units--
 			if(nutriments)
 				H.calories += nutriments
+			if(units <= 0)
+				H.cut_hands()
 		else
 			usr << "\bold \red Не смогу больше съесть..."
-	else
-		usr << "\bold В [src.name] ничего нет."

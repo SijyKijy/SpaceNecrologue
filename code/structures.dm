@@ -37,20 +37,6 @@
 		new loot(T)
 		del src
 
-/obj/structures/bush
-	name = "bush"
-	icon_state = "bush1"
-	density = 0
-	New()
-		icon_state = "bush[pick("1","2")]"
-		dir = dir8()
-
-/obj/structures/tree
-	name = "tree"
-	icon = 'trees.dmi'
-	icon_state = "tree"
-	layer = 12
-
 /obj/structures/bed
 	name = "bed"
 	icon_state = "bed"

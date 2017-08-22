@@ -103,59 +103,78 @@
 "bY" = (/obj/machinery/doors/cage,/turf/simulated/floor/plating,/area/outside)
 "bZ" = (/obj/structures/chair,/turf/simulated/floor/plating,/area/outside)
 "ca" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/obj/items/food/crisps,/turf/simulated/floor/plating,/area/outside)
-"cb" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/turf/simulated/floor/plating,/area/outside)
+"cb" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/obj/items/clothing/pink,/turf/simulated/floor/plating,/area/outside)
 "cc" = (/obj/structures/grille,/turf/simulated/floor/plating,/area/outside)
-"cd" = (/obj/items/food/borscht,/obj/items/food/dogfood,/obj/structures/closets/fridge,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"ce" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"cf" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/obj/items/weapon/bat/lucille,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"cg" = (/obj/structures/table{tag = "icon-table1 (SOUTHWEST)"; icon_state = "table1"; dir = 10},/obj/items/weapon/knife,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"ch" = (/obj/structures/rack,/turf/simulated/floor/wood,/area/outside)
-"ci" = (/obj/structures/rack,/obj/items/food/dogfood,/turf/simulated/floor/wood,/area/outside)
-"cj" = (/obj/structures/rack,/obj/items/food/crisps,/obj/machinery/light/lightbulb{tag = "icon-bulb1 (EAST)"; icon_state = "bulb1"; dir = 4},/turf/simulated/floor/wood,/area/outside)
-"ck" = (/mob/living/zombie,/turf/simulated/floor/wood,/area/outside)
-"cl" = (/obj/structures/table{tag = "icon-table1 (SOUTHEAST)"; icon_state = "table1"; dir = 6},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"cm" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"cn" = (/obj/items/food/borscht,/obj/structures/closets/fridge,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"co" = (/obj/landmarks/start,/turf/simulated/floor/wood,/area/outside)
-"cp" = (/obj/structures/table,/obj/items/battery,/turf/simulated/floor/wood,/area/outside)
-"cq" = (/obj/structures/chair{tag = "icon-chair (WEST)"; icon_state = "chair"; dir = 8},/turf/simulated/floor/wood,/area/outside)
-"cr" = (/obj/structures/chair,/turf/simulated/floor/wood,/area/outside)
-"cs" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (WEST)"; icon_state = "bulb1"; dir = 8},/turf/simulated/floor/wood,/area/outside)
-"ct" = (/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cu" = (/obj/machinery/light/lightbulb,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cv" = (/obj/structures/rack,/obj/items/battery,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cw" = (/obj/items/clothing/shirt,/obj/structures/closets/closet,/turf/simulated/floor/wood,/area/outside)
-"cx" = (/obj/structures/rack,/obj/items/weapon/mop,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cy" = (/obj/structures/rack,/obj/items/weapon/screwdriver,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cz" = (/obj/structures/table{tag = "icon-table2"; icon_state = "table2"; dir = 2},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cA" = (/obj/structures/chair,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cB" = (/obj/structures/tires,/turf/simulated/floor/road,/area/outside)
-"cC" = (/obj/structures/rack,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cD" = (/obj/structures/rack,/obj/items/weapon/crowbar,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cE" = (/obj/structures/table{tag = "icon-table1 (NORTHEAST)"; icon_state = "table1"; dir = 5},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cF" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cG" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cH" = (/obj/items/weapon/mop,/obj/items/devices/analyzer,/obj/structures/closets/closet,/turf/simulated/floor/wood,/area/outside)
-"cI" = (/obj/machinery/doors/store,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cJ" = (/obj/items/weapon/shard,/turf/simulated/floor/wood,/area/outside)
-"cK" = (/obj/structures/rack,/obj/items/drugs/bandage,/turf/simulated/floor/wood,/area/outside)
-"cL" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/obj/items/weapon/bat,/turf/simulated/floor/wood,/area/outside)
-"cM" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/obj/items/food/crisps,/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor/wood,/area/outside)
-"cN" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/obj/items/drugs/bandage,/turf/simulated/floor/wood,/area/outside)
-"cO" = (/obj/items/food/dogfood,/obj/structures/closets/trashcart,/turf/unsimulated/dirt/road,/area/outside)
-"cP" = (/obj/structures/rack,/obj/items/drugs/ointment,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cQ" = (/obj/structures/rack,/obj/items/food/crisps,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cR" = (/obj/items/clothing/black,/obj/structures/closets/cabinet,/turf/simulated/floor/wood,/area/outside)
-"cS" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (WEST)"; icon_state = "bulb1"; dir = 8},/mob/living/zombie,/turf/simulated/floor/wood,/area/outside)
-"cT" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
-"cU" = (/obj/items/drugs/ointment,/obj/structures/closets/trashcart,/turf/simulated/floor/plating,/area/outside)
-"cV" = (/obj/machinery/doors/futuristic,/turf/simulated/floor/plating,/area/outside)
-"cW" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor/plating,/area/outside)
-"cX" = (/obj/structures/girder,/turf/unsimulated/dirt,/area/outside)
-"cY" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/obj/machinery/light/lightbulb,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"cZ" = (/obj/structures/table{tag = "icon-table1 (SOUTHWEST)"; icon_state = "table1"; dir = 10},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"da" = (/obj/machinery/doors/house,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
-"db" = (/obj/items/food/dogfood,/turf/unsimulated/dirt,/area/outside)
+"cd" = (/turf/simulated/wall,/area)
+"ce" = (/turf/unsimulated/dirt/road,/area)
+"cf" = (/turf/unsimulated/dirt,/area)
+"cg" = (/obj/machinery/light/lamp,/turf/unsimulated/dirt/road,/area)
+"ch" = (/obj/machinery/light/lamp,/turf/unsimulated/dirt,/area)
+"ci" = (/obj/items/food/dogfood,/turf/unsimulated/dirt,/area)
+"cj" = (/turf/simulated/floor/road,/area)
+"ck" = (/turf/simulated/wall/window,/area)
+"cl" = (/obj/items/weapon/crowbar,/turf/simulated/floor/road,/area)
+"cm" = (/obj/structures/girder,/turf/simulated/floor/road,/area)
+"cn" = (/obj/items/drugs/bandage,/turf/simulated/floor/road,/area)
+"co" = (/obj/items/clothing/shirt,/turf/unsimulated/dirt/road,/area)
+"cp" = (/obj/structures/girder,/turf/simulated/floor/plating,/area)
+"cq" = (/turf/simulated/floor/plating,/area)
+"cr" = (/obj/items/food/borscht,/obj/items/food/dogfood,/obj/structures/closets/fridge,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cs" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"ct" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/obj/items/weapon/bat/lucille,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cu" = (/obj/structures/table{tag = "icon-table1 (SOUTHWEST)"; icon_state = "table1"; dir = 10},/obj/items/weapon/knife,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cv" = (/obj/structures/tires,/turf/simulated/floor/plating,/area)
+"cw" = (/obj/items/food/crisps,/turf/unsimulated/dirt/road,/area)
+"cx" = (/obj/structures/girder,/turf/unsimulated/dirt/road,/area)
+"cy" = (/obj/structures/rack,/turf/simulated/floor/wood,/area/outside)
+"cz" = (/obj/structures/rack,/obj/items/food/dogfood,/turf/simulated/floor/wood,/area/outside)
+"cA" = (/obj/structures/rack,/obj/items/food/crisps,/obj/machinery/light/lightbulb{tag = "icon-bulb1 (EAST)"; icon_state = "bulb1"; dir = 4},/turf/simulated/floor/wood,/area/outside)
+"cB" = (/mob/living/zombie,/turf/simulated/floor/wood,/area/outside)
+"cC" = (/obj/structures/table{tag = "icon-table1 (SOUTHEAST)"; icon_state = "table1"; dir = 6},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cD" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cE" = (/obj/items/food/borscht,/obj/structures/closets/fridge,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"cF" = (/obj/landmarks/start,/turf/simulated/floor/wood,/area/outside)
+"cG" = (/obj/structures/table,/obj/items/battery,/turf/simulated/floor/wood,/area/outside)
+"cH" = (/obj/structures/chair{tag = "icon-chair (WEST)"; icon_state = "chair"; dir = 8},/turf/simulated/floor/wood,/area/outside)
+"cI" = (/obj/structures/chair,/turf/simulated/floor/wood,/area/outside)
+"cJ" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (WEST)"; icon_state = "bulb1"; dir = 8},/turf/simulated/floor/wood,/area/outside)
+"cK" = (/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cL" = (/obj/machinery/light/lightbulb,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cM" = (/obj/structures/rack,/obj/items/battery,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cN" = (/obj/items/clothing/shirt,/obj/structures/closets/closet,/turf/simulated/floor/wood,/area/outside)
+"cO" = (/obj/structures/rack,/obj/items/weapon/mop,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cP" = (/obj/structures/rack,/obj/items/weapon/screwdriver,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cQ" = (/obj/structures/table{tag = "icon-table2"; icon_state = "table2"; dir = 2},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cR" = (/obj/structures/chair,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cS" = (/obj/structures/tires,/turf/simulated/floor/road,/area/outside)
+"cT" = (/obj/structures/rack,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cU" = (/obj/structures/rack,/obj/items/weapon/crowbar,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cV" = (/obj/structures/table{tag = "icon-table1 (NORTHEAST)"; icon_state = "table1"; dir = 5},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cW" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cX" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"cY" = (/obj/items/weapon/mop,/obj/items/devices/analyzer,/obj/structures/closets/closet,/turf/simulated/floor/wood,/area/outside)
+"cZ" = (/obj/machinery/doors/store,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"da" = (/obj/items/weapon/shard,/turf/simulated/floor/wood,/area/outside)
+"db" = (/obj/structures/rack,/obj/items/drugs/bandage,/turf/simulated/floor/wood,/area/outside)
+"dc" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/obj/items/weapon/bat,/turf/simulated/floor/wood,/area/outside)
+"dd" = (/obj/structures/table{tag = "icon-table1 (WEST)"; icon_state = "table1"; dir = 8},/obj/items/food/crisps,/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor/wood,/area/outside)
+"de" = (/obj/structures/table{tag = "icon-table2 (WEST)"; icon_state = "table2"; dir = 8},/obj/items/drugs/bandage,/turf/simulated/floor/wood,/area/outside)
+"df" = (/obj/items/food/dogfood,/obj/structures/closets/trashcart,/turf/unsimulated/dirt/road,/area/outside)
+"dg" = (/obj/structures/rack,/obj/items/drugs/ointment,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"dh" = (/obj/structures/rack,/obj/items/clothing/black,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"di" = (/obj/structures/rack,/obj/items/food/crisps,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"dj" = (/obj/items/clothing/black,/obj/structures/closets/cabinet,/turf/simulated/floor/wood,/area/outside)
+"dk" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (WEST)"; icon_state = "bulb1"; dir = 8},/mob/living/zombie,/turf/simulated/floor/wood,/area/outside)
+"dl" = (/obj/structures/rack,/obj/items/clothing/pink,/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"dm" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor{tag = "icon-ancient"; icon_state = "ancient"},/area/outside)
+"dn" = (/obj/items/drugs/ointment,/obj/structures/closets/trashcart,/turf/simulated/floor/plating,/area/outside)
+"do" = (/obj/machinery/doors/futuristic,/turf/simulated/floor/plating,/area/outside)
+"dp" = (/obj/machinery/light/lightbulb{tag = "icon-bulb1 (NORTH)"; icon_state = "bulb1"; dir = 1},/turf/simulated/floor/plating,/area/outside)
+"dq" = (/obj/structures/girder,/turf/unsimulated/dirt,/area/outside)
+"dr" = (/obj/structures/table{tag = "icon-table2 (EAST)"; icon_state = "table2"; dir = 4},/obj/machinery/light/lightbulb,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"ds" = (/obj/structures/table{tag = "icon-table1 (SOUTHWEST)"; icon_state = "table1"; dir = 10},/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"dt" = (/obj/machinery/doors/house,/turf/simulated/floor{tag = "icon-white"; icon_state = "white"},/area/outside)
+"du" = (/obj/items/food/dogfood,/turf/unsimulated/dirt,/area/outside)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -196,54 +215,54 @@ aaadadadadadadadadadadadadadadadadaladadapadadadadadadadadadadalaladadadadadadad
 aaadadadadadadadadadadadadapadadadaladadadadadadadadadadapadadadaladadadadadadadadadadaCaCaCaLaLaLaOaLaLazaqaqaqazazazazadadadazaMaDaMazadadaLadadadadadadadadadadadadadadadadadadaa
 aaadadadadapadadadadadadadadadadadaladadadadadadadadadadadadadadaPaladadadadadadadadadaCaCaCaLaQadadadadaRaSaSaSaGaTaUazazazazazazaVazazadadaLadadadadadadadadadadadadadadadadadadaa
 aaapadadadadadadadadadadadadadadalaladadadadadadadapadadadadadadalaladadadadadadadadadaCaCaCaWaCaCaXaCaCaYaDaDaDaZbabbazbcbdaRazbeaDaGazadadaLadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadapadadadadadalalalalaladadadadadadadadadadadadadalaladadadadadadadavadaCaCaCaWaCaCaCaCaCaVaDaDaDaKaDbfazbgbhbdazaJaTbiazadadaLadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadapadadadadadalalalalaladadadadadadadadadadadadadalaladadadadadadadavadaCaCaCaWaCaCaCaCaCaVaDaDaDaKaDbfazbgbhbdazaJaTbiazadadaLadadadapadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadalalalalalalalalaladadadadadadadapadalaladadadadadadapadadadaCaCaCaWaCaCaCaCaCaYaDaDaDazazaVazbdbdbcazbjaDaJazaladaLaLadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadalazazaRazazazazaladalalalalalalalalalalaladadadadadadadadadaCaCaCaLadadadalbkazaDaDaDaVaDaDblbdbdbmazbnaDaKazalaladaLadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadalazaDaDaEaDaDazbkalalalalalalalalalalalaladadaaaaadadadadadaCaCaCaLaLaLaLaLboazaqaqaqazaDaDazazazazazazaVazazazaladaLadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadbpadadalazaDaDaDaDaDazazazazazaladadavadadalalaladaaaaaaaaaaaaadadaCaCaCaLadadadadalalalalalazbqaDaDaDaDaDaDaDaDblbdblalalaLadadadadadadadadadadadadadadadadadaa
-aaadadadadadapadadadadadadalazaDaDbraDaDazbsbtbsazadadadadadadadalaladaabualalaaaaaaadaCaCaCaLadadadadadadadalalazaDaDaDaDaDaDaDaDaDbvazazalalaLadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadalazaDaDaDaDaDazbsbwbsazadadadadadadadalaladaaalalalalaaaaadaCaCaCaLadadadadadadadadalazazazazazbxaHaHbxazazazazalalaLadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadadadadadalazaDaDaEaDaDazbkalalalalalalalalalalalaladadaaaaadadadadadaCaCaCaLaLaLaLaLboazaqaqaqazaDaDazazazazazazaVazazazaladaLadadadadadadadadadadadadapadadadadaa
+aaadadadadadadadadadbpadadalazaDaqaqaqaDazazazazazaladadavadadalalaladaaaaaaaaaaaaadadaCaCaCaLadadadadalalalalalazbqaDaDaDaDaDaDaDaDblbdblalalaLadadadadadadadadadadadadadadadadadaa
+aaadadadadadapadadadadadadalazaDaqbraqaDazbsbtbsazadadadadadadadalaladaabualalaaaaaaadaCaCaCaLadadadadadadadalalazaDaDaDaDaDaDaDaDaDbvazazalalaLadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadadadadadalazaDaqaqaqaDazbsbwbsazadadadadadadadalaladaaalalalalaaaaadaCaCaCaLadadadadadadadadalazazazazazbxaHaHbxazazazazalalaLadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadalazaDaDaDaDaDazbsbwbsazadadapadadadadalaladaaaaaaaaalaaaaadaCaCaCaLadadadadadadadadalalazbybtbzazaDaDazbAbtbBazalaLaLadadadadadadadadadadadadadadadadadaa
 aaaLaLaLaLaLaLaLaLaLaLaLaLbCazazbxaVbxazazazbDazazadadadadadadalalaladadaaaaalalaaaaadaCaCaCaLaLaLaLaLaLaLaLaLaLalaRbEbwbwbFbGaDbHbwbIbwazalaLadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadalalazbJbJbJbJbKbJbJbJazaLaLaLaLaLaLboalaladadadaaalaaaaadadaCaCaCadadadadadadadadbLaLalazbwbwbEazaDaDazbwbdbMazalaLadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadadalazbJbJbJbJbNbJbJbJbOaladadadadadaLalaladadadalalaladadadaCaCaCadavadadadadadadadaLalazazazazazazazazazazazazalaLadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadadalazbJbJbJbJbJbJbJbJaRaladadadadadaLalalaladalalalalaladadaCaCaCadadadadadadadadadaLalalalalalalalalalalalalalalaLadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadapadadadalazazazbOazazazaVazazaladadadadadboalalalalalalalalalalalaCaCaCadadadadadadadadadaLaLaLaLaLaLaLaLaLaLaLaLboboaLaLadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadalbCalaCaCaCaqaEaDaDaqaladadadadadaLalalazazazazazazazazalaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadavadadadadadadaLalaCaCaCaqbPaTbQaqaladadadadadaLadalazbRbRbRbSbdbTazalaCaCaCadadadadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadaLadaCaCaCaqbUbVbWaqaladadavadadaLadalazbdbdbXbdbdbdbYalaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadaLadaCaCaCazaqaqaqazaladadadadadaLadalazbZbdbdbdbdbdazadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadaLadaCaCaCboalalalalaladadadadadaLadadazcacbbdbdccbmazadaCaCaCadavadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadaLadaCaCaCaLadadadadadapadadadadaLadadazazazazazazazazadaCaCaCadadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLadaCaCaCaLaLaLaLaLaLaLaLaLaLaLaLadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadapadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadaCaCaCadavadadadadadadadadadadadadapadadalalalalalalaCaCaCalalalalazazaqaqazazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadavadalalalalalaCaCaCalavalaaazcdcecfcgazadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadazazaqazazadadadadapadadadadaCaCaCadadadapadadadadadadadadadadadadadadadalalalalaCaCaCadadadaaazbqaDaDaKazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadazchakciazaaadadadadadadadadaCaCaCadalalaladadadadadapadalalalalalalalalalalalalaCaCaCadalbkaaazaDaDaDaDazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadaaazcjckchazaaaaadadadadadadadaCaCaCadalazazazaqaqaqazazazalazazazazazazazazazazalaCaCaCadazaqazazazazaHazazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaaaaazchakchazaaaaaaaaadadadadadaCaCaCadadaRakaAakakakakakazalazclcmcnazakaAcoakazalaCaCaCadazcpcqakakakakazaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaaaaazazaoazazazazazazazazadadadaCaCaCadalaRcrakakcoakakakazalazaJaDaDazakakakakazaCaCaCaCaCazazazakakakcsazaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaaaaazctctctctctcuctctcvaqadadavaCaCaCadalazawcqakakakakcwazalazbjaDaDaVakakakakaoaCaCaCaCaCaoaAaoakakazazazazazazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaaaaazctctcxctcyctczcAcvaqadadadaCaCaCaCcBazazazazaoazazazazboazaKaDaDazakakakakazaCaCaCaCaCazazazakakaoakaAakayazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaaaadazctctcCctcDctcEcFcGazadadadaCaCaCaCaCaCaoakakakakakakazalazaDaDaDazakakakakazalaCaCaCatazcHakakakazakcoakayazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadaRctctctctctctctctctcIadadadaCaCaCaCaCaCazakcJakazazaRazalazaqaqazazazaoazazazalaCaCaCalazazazazazazakakakcKazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadazctctctctctctctctctcIadadadaCaCaCalalalaRcLcMcNazcOalalaladadadazayakakazbkalalaCaCaCalalboalaaaaazakakakakazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadazctcPctcCctcQctcCctazadadadaCaCaCapadalazazazazazaladadadadadadazcRakcSazadalalaCaCaCadadadadadaaazazaqaqazazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadaaazctcCctcCctcCctcCctaqadadadaCaCaCadadalalalalalalaladadavadadadazazaqazazadadalaCaCaCadadaLadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadaaazctctctctctcTctctctaqadadavaCaCaCadadadadadadadalalalalaladadadadadadadadadadalaCaCaCadadaLadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadadapadadadalazazazbOazazazaVazazaladadadadadboalalalalalalalalalalalaCaCaCadadadadadadadadadaLaLaLaLaLaLaLaLaLaLaLaLboboaLaLadadadadadadapadadadadadadadadadadaaaa
+aaadadadadadadadadadadadadadalbCalaCaCaCaqaEaDaDaqaladadadadadaLalalazazazazazazazazalaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+aaadadadadadadadavadadadadadadaLalaCaCaCaqbPaTbQaqaladadadadadaLadalazbRbRbRbSbdbTazalaCaCaCadadadadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaa
+aaadadadadadadadadadadadadadadaLadaCaCaCaqbUbVbWaqaladadavadadaLadalazbdbdbXbdbdbdbYalaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaa
+aaadadadadadadadadadadadadadadaLadaCaCaCazaqaqaqazaladadadadadaLadalazbZbdbdbdbdbdazadaCaCaCadadadadadadadadadadadadadadadadadadadadazazazazazazazazazazazazazazazazazazazazazazazaz
+aaadadadadadadadadadadadadadadaLadaCaCaCboalalalalaladadadadadaLadadazcacbbdbdccbmazadaCaCaCadavadadadadadadadadadadadadadadadadadadazcdcecececececececececfcfcfcfcfcfcfcfcfcfcfcfcd
+aaadadadadadadadadadadadadadadaLadaCaCaCaLadadadadadapadadadadaLadadazazazazazazazazadaCaCaCadadadadadadapadadadadadadavadadadadadadazcececgcecececececececfcfcfcfcfcfcfcfcfchcfcicd
+aaaLaLaLaLaLaLaLaLaLaLaLaLaLaLaLadaCaCaCaLaLaLaLaLaLaLaLaLaLaLaLadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadazazcecececececececececececfcfcfcfcfcfcfcfcfcfcdcd
+aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcjcj
+aaadadadapadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCcjcjcjckclcjcmckcmcjcjcjcjcjcjcjcjcjcjcjcjcjcjcj
+aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCcjcjcmcjcjcjcjcncmcjcjcjcjcjcjcjcjcjcjcjcjcjcjcj
+aaadadadadadadadadadadadadadadadadaCaCaCadavadadadadadadadadadadadadapadadalalalalalalaCaCaCalalalalazazaqaqazazadadadadadadadadadazazcocpcececqcececkcecececfcfcfcfcfcfcfcfcfcfcdcd
+aaadadadadadadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadavadalalalalalaCaCaCalavalaaazcrcsctcuazadadadapadadadadadadazcvcpcecwcqcqcecxcececfcfcfcfcfcfcfcfcfchcfcfcd
+aaadadazazaqazazadadadadapadadadadaCaCaCadadadapadadadadadadadadadadadadadadadalalalalaCaCaCadadadaaazbqaDaDaKazaaadadadadadadadadadazcdcpcecececececxcececfcfcfcfcfcfcfcfcfcfcfcfcd
+aaadadazcyakczazaaadadadadadadadadaCaCaCadalalaladadadadadapadalalalalalalalalalalalalaCaCaCadalbkaaazaDaDaDaDazaaadadadadadadadadadazazazazazazazazazazazazazazazazazazazazazazazaz
+aaadaaazcAcBcyazaaaaadadadadadadadaCaCaCadalazazazaqaqaqazazazalazazazazazazazazazazalaCaCaCadazaqazazazazaHazazaaadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaazcyakcyazaaaaaaaaadadadadadaCaCaCadadaRakaAakakakakakazalazcCcDcEazakaAcFakazalaCaCaCadazcGcHakakakakazaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaa
+aaaaaaazazaoazazazazazazazazadadadaCaCaCadalaRcIakakcFakakakazalazaJaDaDazakakakakazaCaCaCaCaCazazazakakakcJazaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+aaaaaaazcKcKcKcKcKcLcKcKcMaqadadavaCaCaCadalazawcHakakakakcNazalazbjaDaDaVakakakakaoaCaCaCaCaCaoaAaoakakazazazazazazaaadadadadadadadadadadadadadadapadadadadadadadadadadadadadadaaaa
+aaaaaaazcKcKcOcKcPcKcQcRcMaqadadadaCaCaCaCcSazazazazaoazazazazboazaKaDaDazakakakakazaCaCaCaCaCazazazakakaoakaAakayazaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaadazcKcKcTcKcUcKcVcWcXazadadadaCaCaCaCaCaCaoakakakakakakazalazaDaDaDazakakakakazalaCaCaCatazcYakakakazakcFakayazadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadaRcKcKcKcKcKcKcKcKcKcZadadadaCaCaCaCaCaCazakdaakazazaRazalazaqaqazazazaoazazazalaCaCaCalazazazazazazakakakdbazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadazcKcKcKcKcKcKcKcKcKcZadadadaCaCaCalalalaRdcdddeazdfalalaladadadazayakakazbkalalaCaCaCalalboalaaaaazakakakakazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadazcKdgcKdhcKdicKcTcKazadadadaCaCaCapadalazazazazazaladadadadadadazdjakdkazadalalaCaCaCadadadadadaaazazaqaqazazadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadaaazcKcTcKdlcKcTcKcTcKaqadadadaCaCaCadadalalalalalalaladadavadadadazazaqazazadadalaCaCaCadadaLadadaaaaaaadadadadadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadaa
+aaadaaazcKcKcKcKcKdmcKcKcKaqadadavaCaCaCadadadadadadadalalalalaladadadadadadadadadadalaCaCaCadadaLadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
 aaadaaazazazazazazazazazazazadadadaCaCaCadadadazazazazazazazazboaLaLaLaLaLaLaLaLadadalaCaCaCadadadadadadaLaLadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadaaaaaaaaadadadadadadadadadadadaCaCaCaCaCaCazcUbdbdbdbdbdazaladadadadadadadaLadadadaCaCaCadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadaaaaadadadadadadadadadadadadaCaCaCaCaCaCcVbdbdbdbXbdbdbYaladadadadadadadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
-aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCazbmbdcWbdbdbdazalalalalalaladadaLadadadaCaCaCadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadaaaaaaaaadadadadadadadadadadadaCaCaCaCaCaCazdnbdbdbdbdbdazaladadadadadadadaLadadadaCaCaCadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadaaaaadadadadadadadadadadadadaCaCaCaCaCaCdobdbdbdbXbdbdbYaladadadadadadadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaadadadadadadadadadadadadadadadadaCaCaCaCaCaCazbmbddpbdbdbdazalalalalalaladadaLadadadaCaCaCadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
 aaadadadadadadadadadadadadadadadadaCaCaCalalalazazazazaoazazazazazazazazaladadaLadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadaa
-aaadadadadcXcXaqcXcXadadapadadadadaCaCaCalalalaqcRakakakakakazaDcncYcZazaladadaLadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadaa
-aaadadadadcXadadadcXadadadadadadadaCaCaCaCaCaCazakakakakakakdaaDaDaDaIaqaladadaLadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadaaaa
-aaadadadadadaddbadadadadadadadadadaCaCaCaCaCaCaoakakakakakcsazaDaDaDaJaqaladadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
-aaadadadadcXadadadcXadadadadadadavaCaCaCaCaCaCazakakakakakakazaDaDaDaKazaladadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
-aaadadadadadcXaqcXcXadadadadadadadaCaCaCadadalazazazaqaqazazazazazazazazboaLaLaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+aaadadadaddqdqaqdqdqadadapadadadadaCaCaCalalalaqdjakakakakakazaDcEdrdsazaladadaLadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadadaa
+aaadadadaddqadadaddqadadadadadadadaCaCaCaCaCaCazakakakakakakdtaDaDaDaIaqaladadaLadadadaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCadadadadadadadadadadadaaaa
+aaadadadadadadduadadadadadadadadadaCaCaCaCaCaCaoakakakakakcJazaDaDaDaJaqaladadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaadadadaddqadadaddqadadadadadadavaCaCaCaCaCaCazakakakakakakazaDaDaDaKazaladadaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+aaadadadadaddqaqdqdqadadadadadadadaCaCaCadadalazazazaqaqazazazazazazazazboaLaLaLadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
 aaaaadadadadadadadadadadadadadadadaCaCaCadadalalalalalalalalalalalalalalaladadadadadadaCaCaCadadadadadadadadadadapadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
 aaaaaaavadadadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaa
 aaaaaaaaadapadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadaCaCaCadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaa

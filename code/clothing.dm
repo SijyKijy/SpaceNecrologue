@@ -23,3 +23,8 @@
 	name = "med suit"
 	icon_state = "whitesuit"
 	texture = "white_suit"
+
+/obj/items/clothing/pink
+	name = "clothes"
+	icon_state = "pinksuit"
+	texture = "pink_suit"

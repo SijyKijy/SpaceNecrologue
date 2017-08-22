@@ -32,7 +32,7 @@
 		var/mob/living/human = null
 		human = new /mob/living/human(src.loc, 1)
 		if(human)
-			human.ckey = src.ckey
+			human.key = src.key
 			human.name = human.key
 			overlays = null
 	else

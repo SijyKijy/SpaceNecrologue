@@ -33,6 +33,7 @@
 #include "code\drugs.dm"
 #include "code\effects.dm"
 #include "code\fix255.dm"
+#include "code\flora.dm"
 #include "code\food.dm"
 #include "code\hud.dm"
 #include "code\human.dm"
