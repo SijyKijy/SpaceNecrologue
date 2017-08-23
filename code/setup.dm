@@ -20,7 +20,7 @@ mob
 obj
 	step_size = 32
 
-/world/mob = /mob/living/human
+/world/mob = /mob/default
 
 proc/master_controller()
 	mob_controller()

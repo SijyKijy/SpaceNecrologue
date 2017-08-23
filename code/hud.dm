@@ -122,26 +122,25 @@
 		icon_state = "hand"
 
 /mob/living/proc/hud_processor()
-	spawn while(1)
-		if(!isDead)
-			sleep(0.001)
-			L.check_act_hand()
-			R.check_act_hand()
-			if(hand == RHAND)
-				R.active = 1
-				acthand = my_rhand_contents
-				L.active = 0
-			else
-				R.active = 0
-				acthand = my_lhand_contents
-				L.active = 1
-			if(R.time_to_swap == 1 || L.time_to_swap == 1)
-				R.time_to_swap = 0
-				L.time_to_swap = 0
-				swap_hands()
-			if(ACT.time_to_intent == 1)
-				ACT.time_to_intent = 0
-				intent()
+	if(!isDead)
+		R.check_act_hand()
+		L.check_act_hand()
+		if(hand == RHAND)
+			R.active = 1
+			acthand = my_rhand_contents
+			L.active = 0
+		else
+			R.active = 0
+			acthand = my_lhand_contents
+			L.active = 1
+		if(R.time_to_swap == 1 || L.time_to_swap == 1)
+			R.time_to_swap = 0
+			L.time_to_swap = 0
+			swap_hands()
+		if(ACT.time_to_intent == 1)
+			ACT.time_to_intent = 0
+			intent()
+		spawn(0.1) hud_processor()
 
 /mob/living/proc/cut_hands()
 	if(R.active)

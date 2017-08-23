@@ -37,6 +37,8 @@
 		usr << "<B><font color=purple>Ближний бой - [meleeskill]</B>"
 	if(miningskill > 0)
 		usr << "<B><font color=purple>Горное дело - [miningskill]</B>"
+	if(medskill > 0)
+		usr << "\bold <font color=purple>Медицина - [medskill]"
 	if(craftskill > 0)
 		usr << "<B><font color=purple>Инженери[ya] - [craftskill]</B>"
 	usr << "<B>*---------*</B>"
@@ -45,28 +47,6 @@
 	isDead = 1
 	density = 0
 	movement = 1
-
-/mob/living/verb/say(msg as text)
-	set name = "Say"
-	set category = "IC"
-	if(cantalk)
-		if(!msg)
-			return
-		else
-			for(var/mob/M in view())
-				msg = fix255(msg)
-				M << "<B>[usr]</B> говорит, \"[msg]\""
-
-/mob/verb/OOC(msg as text)
-	set category = "OOC"
-	msg = fix255(msg)
-	if(ooc)
-		if(!msg)
-			return
-		else
-			world << "<B>\blue OOC: [key]: [msg]</B>"
-	else
-		usr << "<B>\red Недоступно.</B>"
 
 proc/mob_controller()
 	for(var/mob/living/M in world)

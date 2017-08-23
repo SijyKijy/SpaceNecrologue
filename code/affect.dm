@@ -1,6 +1,6 @@
 /obj/items/food/proc/consume(var/mob/living/H = usr)
 	if(units > 0)
-		if(H.calories < 500)
+		if(H.calories < 300)
 			view() << "\red \bold [H.name] кушает [src.name]!"
 			view() << eat
 			units--

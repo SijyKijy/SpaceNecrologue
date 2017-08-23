@@ -3,14 +3,17 @@
 	icon_state = "human"
 	mymob = "human"
 	Login()
-		meleeskill = rand(1, 3)
-		craftskill = rand(1, 3)
-		miningskill = rand(1, 3)
+		meleeskill = rand(1, 2)
+		craftskill = rand(1, 2)
+		medskill = rand(0, 1)
+		miningskill = rand(1, 2)
 		strength = rand(5, 10)
 		endurance = rand(5, 10)
 		dexterity = rand(5, 10)
 		stamina = stamina_max
 		skill_check()
+		name_pick()
+		role_pick()
 		L = new(src)
 		R = new(src)
 		C = new(src)
@@ -30,7 +33,7 @@
 	set category = "OOC"
 	if(client && isDead)
 		var/mob/living/human = null
-		human = new /mob/living/human(src.loc, 1)
+		human = new /mob/living/human(locate(/turf/menu))
 		if(human)
 			human.key = src.key
 			human.name = human.key

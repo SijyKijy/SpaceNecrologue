@@ -5,9 +5,8 @@
 
 /mob/living/zombie
 	name = "Unknown"
-	icon = 'zombies.dmi'
+	icon = 'critter.dmi'
 	icon_state = "zombie"
-	mymob = "zombie"
 	isZombie = 1
 	rundelay = 5
 	New()
@@ -26,3 +25,17 @@
 		spawn(1)
 			hostileAI()
 
+/mob/living/skeleton
+	name = "Skeleton"
+	icon = 'critter.dmi'
+	icon_state = "skeleton"
+	New()
+		strength = rand(5, 10)
+		endurance = rand(5, 10)
+		dexterity = rand(5, 10)
+		meleeskill = rand(1, 2)
+		stamina = stamina_max
+		skill_check()
+		.=..()
+		spawn(1)
+			hostileAI()

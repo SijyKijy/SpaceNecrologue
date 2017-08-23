@@ -2,9 +2,6 @@
 	icon = 'areas.dmi'
 	layer = 50
 	mouse_opacity = 0
-	New()
-		..()
-		icon = null
 
 var/list/obj/landmarks/start/locations = list()
 
@@ -20,3 +17,6 @@ var/list/obj/landmarks/start/locations = list()
 /area/outside
 	icon_state = "outside"
 	sd_outside = 1
+	New()
+		..()
+		icon = null

@@ -1,6 +1,7 @@
 /mob/living
 	var/meleeskill = 0
 	var/miningskill = 0
+	var/medskill = 0
 	var/craftskill = 0
 	var/parrychance = 0
 	var/strength = 0

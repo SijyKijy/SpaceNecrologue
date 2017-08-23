@@ -14,6 +14,7 @@
 	H.dropinventory()
 	var/matrix/Ma = matrix()
 	if(H.client)
+		H.isDead = 1
 		var/mob/ghost = null
 		ghost = new /mob/living/ghost(src.loc, 1)
 		if(ghost)
@@ -29,7 +30,6 @@
 			Ma.Turn(pick(90, -90))
 			transform = Ma
 			H.overlays = null
-			H.isDead = 1
 			H.density = 0
 	else
 		Ma.Turn(pick(90, -90))

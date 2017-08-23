@@ -84,8 +84,8 @@
 			view() << "\red \bold [attacker.name] бьет [src.name] кулаком!"
 			view() << punch
 			src.HurtMe(max(attacker.strength*1.3, 0))
-			if(isAnimal)
-				view() << "<B>[src.name]</B> шипит!"
+			if(src.isZombie && src.target != attacker)
+				view() << "[src.name] смотрит на [attacker.name]."
 				src.target = attacker
 		attacker.stamina = max(attacker.stamina - 10, 0)
 		attacker.canhit = FALSE
@@ -97,7 +97,7 @@
 		if(D.units > 0)
 			view() << "\blue \bold [attacker.name] использует [D.name] на [src.name]!"
 			D.units -= 1
-			src.HealMe(D.hp)
+			src.HealMe(D.hp+attacker.medskill*3)
 			attacker << "\bold Осталось [D.units] использований."
 		else
 			attacker << "\bold [D.name] пуст."
@@ -119,8 +119,8 @@
 			view() << "\red \bold [attacker.name] бьет [src.name] с помощью [W.name]!"
 			view() << weaponhit
 			src.HurtMe(max(W.power*attacker.strength/5, 0))
-			if(isAnimal)
-				view() << "<B>[src.name]</B> шипит!"
+			if(src.isZombie && src.target != attacker)
+				view() << "[src.name] смотрит на [attacker.name]."
 				src.target = attacker
 			canhit = FALSE
 			attacker.stamina -= 10
