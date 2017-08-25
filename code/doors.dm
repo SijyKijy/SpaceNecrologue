@@ -28,10 +28,7 @@ var/delay = 0
 /obj/machinery/doors/attack_hand(var/mob/living/user)
 	if(user in range(1, src))
 		if(!user.acthand && !user.isDead)
-			if(!broken)
-				proceed()
-			else
-				usr << "<B>Дверь сломана.</B>"
+			proceed()
 		if(user.acthand && !user.isDead)
 			act_by_item(user, user.acthand)
 
@@ -63,29 +60,25 @@ var/delay = 0
 		broken = 1
 
 /obj/machinery/doors/proc/proceed(var/mob/living/user = usr)
-	if(!locked)
-		if(!broken)
-			if(!working)
-				if(closed)
-					flick("[mydoor]_opening", src)
-					view() << mysound
-					working = 1
-					sleep(6)
-					open()
-					try_to_break()
-				else
-					flick("[mydoor]_closing", src)
-					view() << mysound
-					working = 1
-					sleep(6)
-					close()
-					try_to_break()
+	if(!broken)
+		if(!working)
+			if(closed)
+				flick("[mydoor]_opening", src)
+				view() << mysound
+				working = 1
+				sleep(6)
+				open()
+				try_to_break()
+			else
+				flick("[mydoor]_closing", src)
+				view() << mysound
+				working = 1
+				sleep(6)
+				close()
+				try_to_break()
 
-		else
-			usr << "<B>Не работает!</B>"
 	else
-		usr << "<B>Закрыто.</B>"
-		view() << error
+		usr << "<B>Не поддаетс[ya]!</B>"
 
 /obj/machinery/doors/proc/open()
 	icon_state = "[mydoor]_opened"

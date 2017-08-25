@@ -1,13 +1,13 @@
 /mob/living
 	var/isAnimal = 0
 	var/friendly = 0
-	var/isZombie = 0
+	var/isUndead = 0
 
 /mob/living/zombie
 	name = "Unknown"
 	icon = 'critter.dmi'
 	icon_state = "zombie"
-	isZombie = 1
+	isUndead = 1
 	rundelay = 5
 	New()
 		zombies++
@@ -23,12 +23,28 @@
 		skill_check()
 		.=..()
 		spawn(1)
-			hostileAI()
+			zombieAI()
+
+/mob/living/proc/zhit(var/mob/living/zombie)
+	if(!src.isDead && zombie.canhit && zombie.stamina >= 5)
+		if(prob(src.dexterity*4))
+			view() << "\red \bold [zombie.name] попыталс[ya] ударить [src.name] когт[ya]ми!"
+			view() << "\red \bold [src.name] избежал удара!"
+			view() << miss
+		else
+			view() << "\red \bold [zombie.name] рвет плоть [src.name] своими когт[ya]ми!"
+			view() << zombiehit
+			src.HurtMe(max(zombie.strength*1.3, 0))
+		zombie.stamina = max(zombie.stamina - 10, 0)
+		zombie.canhit = FALSE
+		spawn(7)
+			zombie.canhit = TRUE
 
 /mob/living/skeleton
 	name = "Skeleton"
 	icon = 'critter.dmi'
 	icon_state = "skeleton"
+	isUndead = 1
 	New()
 		strength = rand(5, 10)
 		endurance = rand(5, 10)
