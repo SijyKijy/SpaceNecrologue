@@ -68,7 +68,7 @@ var/global/list/objects = list()
 	icon_state = "[mycloset]_opened"
 	closed = 0
 	if(transparent)
-		density = 1
+		density = 0
 	for(var/obj/items/I in contents)
 		I.Move(src.loc)
 

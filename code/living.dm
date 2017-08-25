@@ -47,7 +47,7 @@
 
 /mob/living/ghost
 	isDead = 1
-	density = 1
+	density = 0
 	movement = 1
 
 proc/mob_controller()
@@ -78,20 +78,28 @@ proc/mob_controller()
 		try_to_cold()
 	spawn(10) life()
 
+/mob/living/var/canrest = 1
+
 /mob/living/verb/rest()
 	set name = "Rest"
 	set category = "IC"
-	if(!isDead)
+	if(!isDead && canrest)
 		if(!rests)
 			fall_down()
+			canrest = 0
+			spawn(10)
+				canrest = 1
 		else
 			view() << "\blue<B>[src.name]</B> поднимаетс[ya] на ноги!"
+			canrest = 0
 			sleep(10)
 			var/matrix/Ma = matrix()
 			Ma.Turn(360)
 			transform = Ma
 			rests = 0
 			rundelay -= 3
+			spawn(10)
+				canrest = 1
 
 /mob/living/proc/fall_down()
 	var/matrix/Ma = matrix()

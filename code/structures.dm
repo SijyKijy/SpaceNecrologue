@@ -40,7 +40,7 @@
 /obj/structures/bed
 	name = "bed"
 	icon_state = "bed"
-	density = 1
+	density = 0
 
 /obj/structures/rack
 	name = "rack"

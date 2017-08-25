@@ -3,7 +3,7 @@ var/delay = 0
 
 /mob/living
 	Bump(var/obj/machinery/doors/D)
-		if(istype(D) && D.closed && !D.working && !D.broken)
+		if(istype(D) && D.closed && !D.working && !D.broken && !isDead)
 			D.proceed(src)
 
 /obj/machinery/doors
