@@ -27,7 +27,7 @@
 		icon_state = "berrybush_empty"
 		sleep(600)
 		full = 1
-	spawn(1) check()
+	spawn(0.1) check()
 
 /obj/structures/tree
 	name = "tree"

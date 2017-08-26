@@ -24,7 +24,7 @@ var/global/list/objects = list()
 	icon_state = "toilet_closed"
 	mycloset = "toilet"
 	transparent = 1
-	density = 0
+	density = 1
 
 /obj/structures/closets/fridge
 	name = "fridge"
@@ -53,6 +53,7 @@ var/global/list/objects = list()
 	if(!closed)
 		I.loc = src.loc
 		H.cut_hands()
+		I.layer = 4
 	else
 		proceed()
 

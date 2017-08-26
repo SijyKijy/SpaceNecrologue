@@ -56,6 +56,7 @@
 	if(H.act == "help")
 		I.loc = src.loc
 		H.cut_hands()
+		I.layer = 4
 	if(H.act == "harm" && istype(D))
 		if(D.charge >= 5)
 			view() << "\bold[H.name] разбирает [src.name]!"
@@ -81,7 +82,7 @@
 	var/opened = 0
 	attack_hand(var/mob/living/H)
 		if(H in range(1, src))
-			if(!H.acthand && H.act == "help" && !H.isDead)
+			if(!H.acthand && !H.isDead)
 				if(!opened)
 					view() << "\bold[H.name] открывает окно!"
 					icon_state = "window_opened"
@@ -119,6 +120,7 @@
 	if(H.act == "help")
 		I.loc = src.loc
 		H.cut_hands()
+		I.layer = 4
 	if(H.act == "harm" && istype(D))
 		if(D.charge >= 5)
 			view() << "\bold[H.name] разбирает [src.name]!"

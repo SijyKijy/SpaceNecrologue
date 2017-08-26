@@ -40,6 +40,7 @@
 #include "code\human.dm"
 #include "code\interact.dm"
 #include "code\items.dm"
+#include "code\landmarks.dm"
 #include "code\light.dm"
 #include "code\living.dm"
 #include "code\lobby.dm"

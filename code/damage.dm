@@ -12,7 +12,7 @@
 
 /mob/living/proc/die(var/mob/living/human/H = src)
 	H.dropinventory()
-	var/matrix/Ma = matrix()
+	H.fall_down()
 	if(H.client)
 		H.isDead = 1
 		var/mob/ghost = null
@@ -27,12 +27,8 @@
 			del(M)
 			del(P)
 			ghost.key = H.key
-			Ma.Turn(pick(90, -90))
-			transform = Ma
 			H.overlays = null
 			H.density = 0
 	else
-		Ma.Turn(pick(90, -90))
-		transform = Ma
 		H.isDead = 1
 		H.density = 0
