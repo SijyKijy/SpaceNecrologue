@@ -11,6 +11,14 @@
 			if("Ok")
 				src.name = "[f_name] [l_name]"
 
+mob/verb/Who()
+   set category = "OOC"
+   var/mob/M
+   usr << "<B>Мальчики и девочки:</B>"
+   for(M)
+      if(M.client)
+         usr << M.key
+
 /mob/default/Login()
 	loc = locate(/turf/menu)
 

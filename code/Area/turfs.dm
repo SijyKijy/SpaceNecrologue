@@ -1,6 +1,3 @@
-/turf
-	icon = 'turfs.dmi'
-
 /turf/unsimulated/dirt
 	name = "ground"
 	icon_state = "dirt"

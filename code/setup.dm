@@ -20,6 +20,13 @@ mob
 obj
 	step_size = 32
 
+/turf
+	icon = 'turfs.dmi'
+
+/area
+	icon = 'areas.dmi'
+	layer = 50
+	mouse_opacity = 0
 /world/mob = /mob/default
 
 proc/master_controller()
@@ -37,26 +44,3 @@ var/ya = "&#255;"
 var/ooc = 1
 var/time_scale = 1
 var/lobby = 1
-
-mob/verb/Who()
-   set category = "OOC"
-   var/mob/M
-   usr << "<B>Мальчики:</B>"
-   for(M)
-      if(M.client)
-         usr << M.key
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

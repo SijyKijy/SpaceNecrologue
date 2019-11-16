@@ -1,23 +1,28 @@
 /mob/verb/adminverbs_c()
 	set category = "OOC"
 	set name = "Candy"
-	if(usr.key == "difilex" || usr.key == "Difilex")
+	if(usr.key == "SijyKijy")
 		GM_check()
 	else
 		src << "Ћизь."
 
 /mob/proc/GM_check()
 	usr << "<B>Х Ѕип буп.</B>"
-	usr.verbs+=new/mob/admin/verb/End
-	usr.verbs+=new/mob/admin/verb/Announce
+	usr.verbs+=new/mob/admin/verb/hardRestart
+	usr.verbs+=new/mob/admin/verb/restart
+	usr.verbs+=new/mob/admin/verb/announce
 	usr.verbs+=new/mob/admin/verb/disableOOC
 
-var/autoreboot = 0
-var/reboottime = 0
-
-mob/admin/verb/End()
+mob/admin/verb/hardRestart()
 	set category = "Admin"
-	world.End()
+	set name = "Hard restart"
+	world<<"<b><font color = red>FAST-REBOOT!"
+	world.Reboot()
+
+mob/admin/verb/restart()
+	set category = "Admin"
+	set name = "Restart world"
+	Restart()
 
 mob/admin/verb/disableOOC()
 	set category = "Admin"
@@ -29,7 +34,7 @@ mob/admin/verb/disableOOC()
 		world << "<B>OOC врубили!</B>"
 		ooc = 1
 
-mob/admin/verb/Announce(message as message)
+mob/admin/verb/announce(message as message)
 	set category = "Admin"
 	set name = "Announce"
 	if(message)
@@ -38,24 +43,9 @@ mob/admin/verb/Announce(message as message)
 	else
 		usr << "<B>Ѕуп.</B>"
 
-proc/autostuff()
+var/reboottime = 0
+proc/Restart()
 	if(!reboottime)
-		return
-	spawn(reboottime)
-		if(!reboottime)
-			return
-		autoreboot = 1
+		reboottime = 1
 		world<<"<b><font color = red>FUCK WHAT IS GOING ON."
-		spawn(250)
-			world << "<b><font color = red>5!"
-			sleep(10)
-			world << "<b><font color = red>4!"
-			sleep(10)
-			world << "<b><font color = red>3!"
-			sleep(10)
-			world << "<b><font color = red>2!"
-			sleep(10)
-			world << "<b><font color = red>1!"
-			sleep(10)
-			if(autoreboot)
-				world.Reboot()
+			world.End()

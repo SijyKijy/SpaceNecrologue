@@ -1,8 +1,3 @@
-/area
-	icon = 'areas.dmi'
-	layer = 50
-	mouse_opacity = 0
-
 var/list/obj/landmarks/start/locations = list()
 
 /obj/landmarks/start
