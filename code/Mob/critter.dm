@@ -10,7 +10,7 @@
 	isUndead = 1
 	rundelay = 5
 	New()
-		zombies++
+		zombies++ // the number of zombies in the world
 		strength = rand(5, 10)
 		endurance = rand(5, 10)
 		dexterity = rand(5, 10)

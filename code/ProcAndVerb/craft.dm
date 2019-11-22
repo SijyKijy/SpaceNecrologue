@@ -1,4 +1,4 @@
-/mob/living/verb/craft_furniture()
+/mob/living/verb/craft_furniture() // T - turf | M - material
 	set name = "Furniture"
 	set category = "Craft"
 	var/turf/T = src.loc

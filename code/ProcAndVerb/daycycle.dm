@@ -1,4 +1,4 @@
-var/global/daytime = "Night"
+var/global/daytime = "Day"
 
 proc/DemoDayCycle()
 	// a simple day/night cycle

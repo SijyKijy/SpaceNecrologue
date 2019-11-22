@@ -16,6 +16,7 @@
 
 // BEGIN_INCLUDE
 #include "code\defines.dm"
+#include "code\globals.dm"
 #include "code\setup.dm"
 #include "code\Admin\adminpanel.dm"
 #include "code\Area\areas.dm"

@@ -48,7 +48,7 @@
 /mob/living/ghost
 	isDead = 1
 	density = 0
-	movement = 1
+	move = 0
 
 proc/mob_controller()
 	for(var/mob/living/M in world)
@@ -108,3 +108,14 @@ proc/mob_controller()
 	view() << "<B>[src.name]</B> падает на землю!"
 	rests = 1
 	rundelay += 3
+
+/mob/living/proc/DelHUD(var/mob/living/human/H)
+	H.overlays = null
+	del(R)
+	del(L)
+	del(D)
+	del(C)
+	del(ACT)
+	del(E)
+	del(M)
+	del(P)

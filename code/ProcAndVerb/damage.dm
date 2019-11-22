@@ -5,30 +5,19 @@
 			new/obj/cleanable/blood(src.loc)
 	if(health <= 0)
 		die()
-		killed++
 
 /mob/living/proc/HealMe(D)
 	health = health + D
 
 /mob/living/proc/die(var/mob/living/human/H = src)
+	killed++
 	H.dropinventory()
 	H.fall_down()
+	H.density = 0
+	H.isDead = 1
 	if(H.client)
-		H.isDead = 1
 		var/mob/ghost = null
 		ghost = new /mob/living/ghost(src.loc, 1)
-		if(ghost)
-			del(R)
-			del(L)
-			del(D)
-			del(C)
-			del(ACT)
-			del(E)
-			del(M)
-			del(P)
-			ghost.key = H.key
-			H.overlays = null
-			H.density = 0
-	else
-		H.isDead = 1
-		H.density = 0
+		DelHUD(H)
+		ghost.key = H.key
+		alert(ghost,"Вот и помер дед [H.name]","You died!","Окей, нажму респаун!")

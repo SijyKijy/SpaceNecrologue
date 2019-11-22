@@ -14,19 +14,17 @@
 		skill_check()
 		name_pick()
 		role_pick()
-		L = new(src)
-		R = new(src)
+		L = new(src) // Left hand
+		R = new(src) // Right hand
 		C = new(src)
 		D = new(src)
 		E = new(src)
 		M = new(src)
-		P = new(src)
+		P = new(src) // pocket
 		ACT = new(src)
 		process()
 		hud_processor()
-		x = pick(5,15,25)
-		y = 4
-		z = 1
+		loc = spawnLoc[rand(1,spawnLoc.len)]
 
 /mob/living/verb/respawn()
 	set name = "Respawn"

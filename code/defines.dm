@@ -2,3 +2,4 @@
 #define TRUE 1
 #define RHAND 1
 #define LHAND 0
+#define INVISIBILITY 101

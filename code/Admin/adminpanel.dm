@@ -1,4 +1,4 @@
-/mob/verb/adminverbs_c()
+/mob/verb/adminverbs_c() // Получение админки
 	set category = "OOC"
 	set name = "Candy"
 	if(usr.key == "SijyKijy")
@@ -7,7 +7,7 @@
 		src << "Лизь."
 
 /mob/proc/GM_check()
-	usr << "<B>• Бип буп.</B>"
+	usr << "<B>= Activation =</B>"
 	usr.verbs+=new/mob/admin/verb/hardRestart
 	usr.verbs+=new/mob/admin/verb/restart
 	usr.verbs+=new/mob/admin/verb/announce
@@ -47,5 +47,5 @@ var/reboottime = 0
 proc/Restart()
 	if(!reboottime)
 		reboottime = 1
-		world<<"<b><font color = red>FUCK WHAT IS GOING ON."
+		world << "<b><font color = red>FUCK WHAT IS GOING ON."
 			world.End()
